@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwtysEJgDAMQNFVMoATdBWRkGqUQBpLm3op3d2C3v6Dv/axQM+FH6Td5bYA/Qs0Shzgh0p1tvm2ymU+YpMeIJPY2RQTW/XSSDEq8yF2jbG9id8kMA==": "utter_painful_bleeding",
+    "eJyVjUsKgDAMRK+SA3iCXkUkRI0SaGNpUzfFu1vwsxV382DeTF+PDmpMvCNNJps6qFdApcAObvCSjbV1S+bUOqINzUEk0aV4DKzZUiGPo2eeRdfjY7iYccLHf61fD8MJpkpKXg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLz8+NzWvuKSoNDEnPiknNTUlMy+9tjYWANl5Ih4=": "utter_no_bleeding",
+    "eJyNjEEKgDAMBL+SB/iCfkUkVA0SqKmkqZfSvxtQvOptB2Z2bH2AdiidGBfjLAHaPVDiTgEeSFyMxN1aSN1hcbQAknEnKaY1JpwT0cqy9Y/PakaKnr7B39/pAmUYRCg=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "user_name_form",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpWSaANQDZsan5Rfl4jQkFgD+gk7R": "utter_submit",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpWSaANQDZsan5RflUuSM4tKk3Ezc7ogFAP2XaGA=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOTEnObM0Nz4lNS0zOTM1L7mytjYWAHFsIL4=": "utter_cal_def",
+    "eJyNjNEJgDAMBVfJAE7QVURCiRECNUqbClK6uxH91793cPfG1gdoe+YDI5lsGqA9AzWuHOCFJMVY3a2FszuijhaAYiKpK868CAkrnf3jsJpxRu/u5t/hdAGu4j+w": "action_listen",
+    "eJwtitEJgDAMBVfpAE7QVURCqw8J1FTS1J/S3Q3o3x1365hLGLfiobQbV4lhfECSLsTwS+FmEH97g/rD4mqes1S9UqFuUBZQLsDBcs65vWPpI64=": "utter_abnormal_uterine_bleed",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BCidlJdflJuYE19aklqUmZcan5STmpqSmZdeS8Dc0hKghnjs2kmyJhYAyxhL1A==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhIDm/uLY2FgDOoRsj": "utter_pcos",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhIDm/uJaAEaUlJalF8WCVOPTHAgCmhzNx": "action_listen"
+  }
+}

@@ -1,0 +1,52 @@
+version: "3.0"
+
+stories:
+  - story: calcium_deficiency_story
+    steps:
+      - intent: calcium_deficiency
+      - action: utter_cal_def
+
+  - story: abnormal_uterine_bleeding_story
+    steps:
+      - intent: abnormal_uterine_bleeding
+      - action: utter_abnormal_uterine_bleed
+
+  - story: pcos_story
+    steps:
+      - intent: pcos
+      - action: utter_pcos
+
+  - story: no_menstrual_bleeding_story
+    steps:
+      - intent: no_menstrual_bleeding
+      - action: utter_no_bleeding
+
+  - story: painful_menstrual_bleeding_story
+    steps:
+      - intent: painful_menstrual_bleeding
+      - action: utter_painful_bleeding
+
+  - story: user_name story
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: user_name_form
+      - active_loop: user_name_form
+      - slot_was_set:
+          - requested_slot: user_name
+      - slot_was_set:
+          - user_name: sanmay
+      - slot_was_set:
+          - requested_slot: null
+      - active_loop: null
+      - action: utter_submit
+
+  - story: feelinggood_story
+    steps:
+      - intent: feelinggood_intent
+      - action: utter_happy
+
+  - story: feelingsad_story
+    steps:
+      - intent: feelingsad_intent
+      - action: utter_sad

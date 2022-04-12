@@ -1,0 +1,59 @@
+version: "3.0"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+  - greet
+  - name_entry
+  - affirm
+  - deny
+  - goodbye
+  - calcium_deficiency
+  - abnormal_uterine_bleeding
+  - pcos
+  - no_menstrual_bleeding
+  - painful_menstrual_bleeding
+  - feelinggood_intent
+  - feelingsad_intent
+entities:
+  - name
+slots:
+  user_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name
+        conditions:
+          - active_loop: user_name_form
+responses:
+  utter_greet:
+    - text: Greetings! What is your name?
+    - text: Hello! What is your name?
+  utter_submit:
+    - text: How are you feeling today {user_name}?
+  utter_happy:
+    - text: Great! How may I help you?
+  utter_sad:
+    - text: Sorry to hear that. How may I help you?
+  utter_goodbye:
+    - text: Bye
+  utter_cal_def:
+    - text: Calcium deficiency is usually easy to treat. It typically involves adding more calcium to your diet. You can consult a doctor and take prescribed medicines or calcium supplements. Five dried or fresh figs provide your body with 135 mg of calcium. Papayas and oranges are two other fruits high in calcium. Do not self-treat by taking a lot of calcium supplements. Taking more than the recommended dose without your doctor's approval can lead to serious issues like kidney stones.
+  utter_abnormal_uterine_bleed:
+    - text: Soaking through one or more sanitary pads or tampons every hour for several hours in a row are signs of abnormal uterine bleeding. If bleeding is lasting for more than 10 days you should consult a gynaecologist.  Some common medicine suggested for this condition are Tabpause, Cycloset Tab, Trenax. MF Tab 6s but it is suggested to take medicines under doctor's prescriptions.
+  utter_pcos:
+    - text: Delayed periods, weight gain, obesity, excessive acne or facial hair growth are a sign of polycystic ovarian syndrome i.e. PCOS. One is suggested to consult a gynaecologist and follow certain tests or sonographies to verify the symptoms. PCOS symptoms can be brought into control by including proper diet and non-cardio exercises in your routine and incorporating vitamin D through sunlight. One can consult dermatologist for severe acne issues.
+  utter_no_bleeding:
+    - text: Having too much body fat, stressed lifestyle or hormonal imbalance can cause a medical condition called Amenorrhea which results in less or no blood flow during period cycles. One should consult doctor and take only prescribed medicinal plan to regulate the blood flow.
+  utter_painful_bleeding:
+    - text: This situation is referred as dysmenorrhea which causes pain which is more than normal. Using heat pads or ginger lemon tea for comforting pain is advised, try to avoid painkillers but you can use ibuprofen or naporex in extreme conditions. You should always consult a doctor before taking any medications to avoid side effects.
+
+actions:
+  - utter_greet
+  - utter_happy
+  - utter_iamabot
+  - utter_submit
+forms:
+  user_name_form:
+    required_slots:
+      - user_name

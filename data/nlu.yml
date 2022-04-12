@@ -1,0 +1,164 @@
+version: "3.0"
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - good afternoon
+      - good day
+      - morning
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - goodafternoon
+      - goodday
+  - intent: goodbye
+    examples: |
+      - cu
+      - cya
+      - good bye
+      - cee you later
+      - catch you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - ok
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: feelinggood_intent
+    examples: |
+      - im feeling great
+      - im good
+      - great
+      - feeling happy today
+      - nice 
+      - feeling nice
+      - feeling good
+      - im feeling great thank you
+      - im feeling amazing
+
+  - intent: feelingsad_intent
+    examples: |
+      - im feeling horrible
+      - im sad
+      - sad
+      - worse
+      - im not feeling good 
+      - im not feeling great
+      - im not feeling ok
+
+  - intent: calcium_deficiency
+    examples: |
+      - calcium deficiency
+      - how can i treat my calcium deficiency
+      - what is the reason for calcium deficiency
+      - i have calcium deficiency, what do i do
+      - i have calcium deficiency, how do i cure it
+      - i have calcium deficiency, how do i treat it
+      - dry scaly skin
+      - how do i treat dry scaly skin
+      - why do i have dry scaly skin
+      - what is the reason for dry scaly skin
+      - i have dry scaly skin, how do i cure it
+      - i have dry scaly skin, how do i treat it
+      - brittle nails
+      - how do i treat brittle nails
+      - why are my nails brittle
+      - what is the reason for brittle nails
+      - why do i have brittle nails
+      - i have brittle nails, how do i cure them
+      - i have brittle nails, how do i treat them
+      - muscle cramps back and legs
+      - how do i treat muscle cramps in back and legs
+      - what is the reason for my muscle cramps involving generally back and legs
+      - why do i have muscle cramps in back and legs
+      - i have muscle cramps in back and legs, how do i cure it
+      - i have muscle cramps in back and legs, how do i treat it
+  - intent: abnormal_uterine_bleeding
+    examples: |
+      - abnormal uterine bleeding
+      - how can i treat abnormal uterine bleeding
+      - what is the reason for abnormal uterine bleeding
+      - i have abnormal uterine bleeding, what do i do
+      - i have abnormal uterine bleeding, how do i cure it
+      - i have abnormal uterine bleeding, how do i treat it
+      - why does my menstrual cycle last longer than usual
+      - my menstrual cycle is lasting longer 7 days
+      - menstrual cycle last longer than seven days
+      - what is the reason of my menstrual cycle lasting longer than usual
+      - period blood flow last longer than 7 days
+      - why does my period blood flow last longer than seven days
+      - what is the reason of my period blood flow lasting longer than usual
+      - i have prolonged period blood flow, why
+      - why is my period blood flow prolonged
+  - intent: pcos
+    examples: |
+      - period delay
+      - why do my periods get delayed often
+      - what is the reason for my periods getting delayed often
+      - my periods are delayed, what do i do
+      - period miss often
+      - miss periods often
+      - why do i miss my periods often
+      - what is the reason for me missing my periods often
+      - i am missing my periods often, what do i do
+      - why do i have excessive body hair
+      - why do i have excessive body hair including chest, stomach and back
+      - what is the reason for having excessive body hair
+      - excessive body hair including chest, stomach and back
+  - intent: no_menstrual_bleeding
+    examples: |
+      - no menstrual bleeding
+      - less menstrual bleeding
+      - what is the reason for no menstrual bleeding
+      - what is the reason for less menstrual bleeding
+      - i do not bleed so much
+      - why do i bleed less
+  - intent: painful_menstrual_bleeding
+    examples: |
+      - painful menstrual bleeding
+      - painful cramps during menstrual cycle
+      - painful menstrual periods
+      - excessive periods cramps
+      - excessive pain
+      - why does it hurt so much during periods
+      - why do i experience so much excessive pain during menstrual cycle
+      - what is the reason for such painful periods
+
+  - intent: name_entry
+    examples: |
+      - my name is [sanmay](name)
+      - my name is [rahul](name)
+      - my name is [priyanka](name)
+      - my name is [saurabh](name)
+      - my name is [rohan](name)
+      - i am [jay](name)
+      - i am [sakshi](name)
+      - i am [maahi](name)
+      - i am [pragati](name)
